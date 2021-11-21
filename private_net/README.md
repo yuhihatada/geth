@@ -126,9 +126,8 @@ $ eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[2], value:web3.to
 ## トランザクションの確認
 
 ```
-$ 
+$ eth.getTransaction("0xe9d90eb6f3315008b494e029a2cffc53ea64731bab4009eb4c91e599ecda0eaf")
 ```
-
 
 ## genesisブロックの確認
 
