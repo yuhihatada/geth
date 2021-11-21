@@ -63,18 +63,23 @@ $ miner.setEtherbase(eth.accounts[n])
 
 wei
 ```
-$ eth.getBalance(eth.accounts[0])
+$ eth.getBalance(eth.accounts[n])
 ```
 
 ether
 ```
-$ web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+$ web3.fromWei(eth.getBalance(eth.accounts[n]), "ether")
+```
+
+etherでブロックごとの残高確認
+```
+$ web3.fromWei(eth.getBalance(eth.accounts[n], <ブロックNo>), "ether")
 ```
 
 ### ロックの解除
 
 ```
-$ personal.unlockAccount(eth.accounts[0])
+$ personal.unlockAccount(eth.accounts[n])
 ```
 
 ## マイニング
@@ -118,15 +123,22 @@ web3.toWei(<ether単位>, "ether")
 
 etherの送金
 ```
-$ eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[2], value:web3.toWei(5, "ether")})
+$ eth.sendTransaction({from: eth.accounts[n], to: eth.accounts[m], value:web3.toWei(<送るコイン数>, "ether")})
 ```
 
--> トランザクションが発行される。この時点では送金が完了していない。  
+-> トランザクションが発行される。トランザクションがブロックに取り込まれたときに送金が完了するので、この時点では完了していない。  
+-> マイニング中にトランザクションが取り込まれると完了する。  
 
 ## トランザクションの確認
 
 ```
-$ eth.getTransaction("0xe9d90eb6f3315008b494e029a2cffc53ea64731bab4009eb4c91e599ecda0eaf")
+$ eth.getTransaction("<トランザクションID>")
+```
+
+## トランザクションレシートの確認
+
+```
+$ eth.getTransactionReceipt("<トランザクションID>")
 ```
 
 ## genesisブロックの確認
