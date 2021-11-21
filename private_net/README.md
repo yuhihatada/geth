@@ -14,6 +14,13 @@ macOS
 $ geth --networkid "10" --nodiscover --datadir ~/yuhi-workspace/geth/private_net --http --http.addr "localhost" --http.port "8545" --http.corsdomain "*" --http.api "eth,net,web3,personal" --miner.gaslimit "20000000" --allow-insecure-unlock console 2>> ~/yuhi-workspace/geth/private_net/error.log
 ```
 
+## password解除しながら起動
+
+macOS
+```
+$ geth --networkid "10" --nodiscover --datadir ~/yuhi-workspace/geth/private_net --http --http.addr "localhost" --http.port "8545" --http.corsdomain "*" --http.api "eth,net,web3,personal" --miner.gaslimit "20000000" --allow-insecure-unlock console 2>> ~/yuhi-workspace/geth/private_net/error.log --unlock 0xb47f08cc7ddc9aa27b3bbd45e42ee8825dc2ecf5,0xb4941002b9a012ff17186a3c1db72f423b615626,0xc1e1b83a482480e9e3cce55003cad6f4fac7b7c4 --password ~/yuhi-workspace/geth/private_net/password.txt
+```
+
 ## Gethの終了
 
 ```
@@ -107,10 +114,21 @@ web3.toWei(<ether単位>, "ether")
 
 ## 送金
 
+### トランザクションの発行
+
 etherの送金
 ```
 $ eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[2], value:web3.toWei(5, "ether")})
 ```
+
+-> トランザクションが発行される。この時点では送金が完了していない。  
+
+## トランザクションの確認
+
+```
+$ 
+```
+
 
 ## genesisブロックの確認
 

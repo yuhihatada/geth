@@ -70,3 +70,38 @@
 12:55:07.259516 table@remove removed @4
 12:55:20.519803 db@close closing
 12:55:20.520064 db@close done T·259.471µs
+=============== Nov 21, 2021 (JST) ===============
+13:07:22.875068 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:07:22.875314 version@stat F·[0 1] S·8KiB[0B 8KiB] Sc·[0.00 0.00]
+13:07:22.875341 db@open opening
+13:07:22.875426 journal@recovery F·1
+13:07:22.877466 journal@recovery recovering @14
+13:07:22.892797 memdb@flush created L0@17 N·4 S·1KiB "Sna..tor,v223":"unc..own,v222"
+13:07:22.896464 version@stat F·[1 1] S·9KiB[1KiB 8KiB] Sc·[0.25 0.00]
+13:07:22.958107 db@janitor F·5 G·1
+13:07:22.958173 db@janitor removing table-13
+13:07:22.958372 db@open done T·83.013681ms
+13:07:41.250591 db@close closing
+13:07:41.250738 db@close done T·146.207µs
+=============== Nov 21, 2021 (JST) ===============
+13:09:27.192044 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:09:27.192548 version@stat F·[1 1] S·9KiB[1KiB 8KiB] Sc·[0.25 0.00]
+13:09:27.192600 db@open opening
+13:09:27.192749 journal@recovery F·1
+13:09:27.196392 journal@recovery recovering @18
+13:09:27.212963 memdb@flush created L0@20 N·4 S·1KiB "Sna..tor,v228":"unc..own,v227"
+13:09:27.216635 version@stat F·[2 1] S·11KiB[2KiB 8KiB] Sc·[0.50 0.00]
+13:09:27.272580 db@janitor F·5 G·0
+13:09:27.272664 db@open done T·80.027293ms
+13:10:03.574557 db@close closing
+13:10:03.574779 db@close done T·220.055µs
+=============== Nov 21, 2021 (JST) ===============
+13:10:51.126818 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:10:51.127100 version@stat F·[2 1] S·11KiB[2KiB 8KiB] Sc·[0.50 0.00]
+13:10:51.127163 db@open opening
+13:10:51.127276 journal@recovery F·1
+13:10:51.130673 journal@recovery recovering @21
+13:10:51.148187 memdb@flush created L0@23 N·4 S·1KiB "Sna..tor,v233":"unc..own,v232"
+13:10:51.152028 version@stat F·[3 1] S·12KiB[3KiB 8KiB] Sc·[0.75 0.00]
+13:10:51.208560 db@janitor F·6 G·0
+13:10:51.208641 db@open done T·81.45224ms

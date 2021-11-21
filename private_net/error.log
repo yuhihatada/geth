@@ -412,3 +412,102 @@ INFO [11-21|12:55:20.516] Persisted trie from memory database      nodes=0 size=
 INFO [11-21|12:55:20.516] Writing clean trie cache to disk         path=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/triecache threads=4
 INFO [11-21|12:55:20.519] Persisted the clean trie cache           path=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/triecache elapsed=2.883ms
 INFO [11-21|12:55:20.519] Blockchain stopped 
+INFO [11-21|13:07:22.873] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-21|13:07:22.874] Set global gas cap                       cap=50,000,000
+INFO [11-21|13:07:22.874] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [11-21|13:07:22.874] Allocated cache and file handles         database=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/chaindata cache=512.00MiB handles=5120
+INFO [11-21|13:07:22.964] Opened ancient database                  database=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/chaindata/ancient readonly=false
+INFO [11-21|13:07:22.965] Initialised chain configuration          config="{ChainID: 33 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: unknown}"
+INFO [11-21|13:07:22.965] Disk storage enabled for ethash caches   dir=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/ethash count=3
+INFO [11-21|13:07:22.965] Disk storage enabled for ethash DAGs     dir=/Users/hatadayuuhi/Library/Ethash count=2
+INFO [11-21|13:07:22.966] Initialising Ethereum protocol           network=10 dbversion=8
+INFO [11-21|13:07:22.967] Loaded most recent local header          number=21 hash=24ad19..da7580 td=2,764,928 age=1h19m19s
+INFO [11-21|13:07:22.968] Loaded most recent local full block      number=21 hash=24ad19..da7580 td=2,764,928 age=1h19m19s
+INFO [11-21|13:07:22.968] Loaded most recent local fast block      number=21 hash=24ad19..da7580 td=2,764,928 age=1h19m19s
+INFO [11-21|13:07:22.971] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-21|13:07:22.971] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-21|13:07:22.972] Switch sync mode from fast sync to full sync 
+INFO [11-21|13:07:22.972] Gasprice oracle is ignoring threshold set threshold=2
+INFO [11-21|13:07:22.973] Starting peer-to-peer node               instance=Geth/v1.10.12-stable-6c4dc6c3/darwin-amd64/go1.17.2
+INFO [11-21|13:07:23.049] New local node record                    seq=1,637,461,636,278 id=cb921dded2c153ea ip=127.0.0.1 udp=0 tcp=30303
+INFO [11-21|13:07:23.049] Started P2P networking                   self="enode://2b72914bec59434bb85ef4ed9efbc4223142705621cb34e84a943eab7d35334d19a6341f14b193d5da68ae5ec8936c344f9b1f66718c9b2e640598cdbd95a6cb@127.0.0.1:30303?discport=0"
+INFO [11-21|13:07:23.050] IPC endpoint opened                      url=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth.ipc
+INFO [11-21|13:07:23.051] HTTP server started                      endpoint=127.0.0.1:8545 prefix= cors=* vhosts=localhost
+INFO [11-21|13:07:23.092] Etherbase automatically configured       address=0xB47F08Cc7ddC9aA27b3bbd45e42EE8825Dc2EcF5
+INFO [11-21|13:07:41.246] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [11-21|13:07:41.246] IPC endpoint closed                      url=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth.ipc
+INFO [11-21|13:07:41.246] Ethereum protocol stopped 
+INFO [11-21|13:07:41.246] Transaction pool stopped 
+INFO [11-21|13:07:41.247] Writing cached state to disk             block=21 hash=24ad19..da7580 root=ea8a17..4e5cc5
+INFO [11-21|13:07:41.247] Persisted trie from memory database      nodes=0 size=0.00B time="3.776µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-21|13:07:41.247] Writing cached state to disk             block=20 hash=16f442..c0a01f root=f6c514..83e109
+INFO [11-21|13:07:41.247] Persisted trie from memory database      nodes=0 size=0.00B time="1.128µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-21|13:07:41.247] Writing snapshot state to disk           root=56e81f..63b421
+INFO [11-21|13:07:41.247] Persisted trie from memory database      nodes=0 size=0.00B time="1.198µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-21|13:07:41.247] Writing clean trie cache to disk         path=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/triecache threads=4
+INFO [11-21|13:07:41.250] Persisted the clean trie cache           path=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/triecache elapsed=2.940ms
+INFO [11-21|13:07:41.250] Blockchain stopped 
+INFO [11-21|13:09:27.189] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-21|13:09:27.191] Set global gas cap                       cap=50,000,000
+INFO [11-21|13:09:27.191] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [11-21|13:09:27.191] Allocated cache and file handles         database=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/chaindata cache=512.00MiB handles=5120
+INFO [11-21|13:09:27.282] Opened ancient database                  database=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/chaindata/ancient readonly=false
+INFO [11-21|13:09:27.283] Initialised chain configuration          config="{ChainID: 33 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: unknown}"
+INFO [11-21|13:09:27.283] Disk storage enabled for ethash caches   dir=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/ethash count=3
+INFO [11-21|13:09:27.286] Disk storage enabled for ethash DAGs     dir=/Users/hatadayuuhi/Library/Ethash count=2
+INFO [11-21|13:09:27.286] Initialising Ethereum protocol           network=10 dbversion=8
+INFO [11-21|13:09:27.288] Loaded most recent local header          number=21 hash=24ad19..da7580 td=2,764,928 age=1h21m24s
+INFO [11-21|13:09:27.288] Loaded most recent local full block      number=21 hash=24ad19..da7580 td=2,764,928 age=1h21m24s
+INFO [11-21|13:09:27.288] Loaded most recent local fast block      number=21 hash=24ad19..da7580 td=2,764,928 age=1h21m24s
+INFO [11-21|13:09:27.289] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-21|13:09:27.290] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-21|13:09:27.290] Switch sync mode from fast sync to full sync 
+INFO [11-21|13:09:27.290] Gasprice oracle is ignoring threshold set threshold=2
+INFO [11-21|13:09:27.290] Starting peer-to-peer node               instance=Geth/v1.10.12-stable-6c4dc6c3/darwin-amd64/go1.17.2
+INFO [11-21|13:09:27.362] New local node record                    seq=1,637,461,636,279 id=cb921dded2c153ea ip=127.0.0.1 udp=0 tcp=30303
+INFO [11-21|13:09:27.363] Started P2P networking                   self="enode://2b72914bec59434bb85ef4ed9efbc4223142705621cb34e84a943eab7d35334d19a6341f14b193d5da68ae5ec8936c344f9b1f66718c9b2e640598cdbd95a6cb@127.0.0.1:30303?discport=0"
+INFO [11-21|13:09:27.364] IPC endpoint opened                      url=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth.ipc
+INFO [11-21|13:09:27.365] HTTP server started                      endpoint=127.0.0.1:8545 prefix= cors=* vhosts=localhost
+INFO [11-21|13:09:37.193] Unlocked account                         address=0xB47F08Cc7ddC9aA27b3bbd45e42EE8825Dc2EcF5
+INFO [11-21|13:09:37.229] Etherbase automatically configured       address=0xB47F08Cc7ddC9aA27b3bbd45e42EE8825Dc2EcF5
+INFO [11-21|13:10:03.569] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [11-21|13:10:03.570] IPC endpoint closed                      url=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth.ipc
+INFO [11-21|13:10:03.570] Ethereum protocol stopped 
+INFO [11-21|13:10:03.570] Transaction pool stopped 
+INFO [11-21|13:10:03.570] Writing cached state to disk             block=21 hash=24ad19..da7580 root=ea8a17..4e5cc5
+INFO [11-21|13:10:03.570] Persisted trie from memory database      nodes=0 size=0.00B time="4.241µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-21|13:10:03.571] Writing cached state to disk             block=20 hash=16f442..c0a01f root=f6c514..83e109
+INFO [11-21|13:10:03.571] Persisted trie from memory database      nodes=0 size=0.00B time="2.615µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-21|13:10:03.571] Writing snapshot state to disk           root=56e81f..63b421
+INFO [11-21|13:10:03.571] Persisted trie from memory database      nodes=0 size=0.00B time="1.942µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [11-21|13:10:03.571] Writing clean trie cache to disk         path=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/triecache threads=4
+INFO [11-21|13:10:03.574] Persisted the clean trie cache           path=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/triecache elapsed=2.955ms
+INFO [11-21|13:10:03.574] Blockchain stopped 
+INFO [11-21|13:10:51.125] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-21|13:10:51.126] Set global gas cap                       cap=50,000,000
+INFO [11-21|13:10:51.126] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [11-21|13:10:51.126] Allocated cache and file handles         database=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/chaindata cache=512.00MiB handles=5120
+INFO [11-21|13:10:51.218] Opened ancient database                  database=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/chaindata/ancient readonly=false
+INFO [11-21|13:10:51.219] Initialised chain configuration          config="{ChainID: 33 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Arrow Glacier: <nil>, Engine: unknown}"
+INFO [11-21|13:10:51.220] Disk storage enabled for ethash caches   dir=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth/ethash count=3
+INFO [11-21|13:10:51.222] Disk storage enabled for ethash DAGs     dir=/Users/hatadayuuhi/Library/Ethash count=2
+INFO [11-21|13:10:51.222] Initialising Ethereum protocol           network=10 dbversion=8
+INFO [11-21|13:10:51.224] Loaded most recent local header          number=21 hash=24ad19..da7580 td=2,764,928 age=1h22m48s
+INFO [11-21|13:10:51.224] Loaded most recent local full block      number=21 hash=24ad19..da7580 td=2,764,928 age=1h22m48s
+INFO [11-21|13:10:51.224] Loaded most recent local fast block      number=21 hash=24ad19..da7580 td=2,764,928 age=1h22m48s
+INFO [11-21|13:10:51.226] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-21|13:10:51.226] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-21|13:10:51.226] Switch sync mode from fast sync to full sync 
+INFO [11-21|13:10:51.227] Gasprice oracle is ignoring threshold set threshold=2
+INFO [11-21|13:10:51.227] Starting peer-to-peer node               instance=Geth/v1.10.12-stable-6c4dc6c3/darwin-amd64/go1.17.2
+INFO [11-21|13:10:51.305] New local node record                    seq=1,637,461,636,280 id=cb921dded2c153ea ip=127.0.0.1 udp=0 tcp=30303
+INFO [11-21|13:10:51.306] Started P2P networking                   self="enode://2b72914bec59434bb85ef4ed9efbc4223142705621cb34e84a943eab7d35334d19a6341f14b193d5da68ae5ec8936c344f9b1f66718c9b2e640598cdbd95a6cb@127.0.0.1:30303?discport=0"
+INFO [11-21|13:10:51.306] IPC endpoint opened                      url=/Users/hatadayuuhi/yuhi-workspace/geth/private_net/geth.ipc
+INFO [11-21|13:10:51.308] HTTP server started                      endpoint=127.0.0.1:8545 prefix= cors=* vhosts=localhost
+INFO [11-21|13:10:52.045] Unlocked account                         address=0xB47F08Cc7ddC9aA27b3bbd45e42EE8825Dc2EcF5
+INFO [11-21|13:10:52.909] Unlocked account                         address=0xb4941002b9A012FF17186A3c1DB72F423b615626
+INFO [11-21|13:10:53.642] Unlocked account                         address=0xC1e1b83a482480E9E3cce55003caD6f4fAC7b7c4
+INFO [11-21|13:10:53.678] Etherbase automatically configured       address=0xB47F08Cc7ddC9aA27b3bbd45e42EE8825Dc2EcF5
+WARN [11-21|13:11:40.479] Caller gas above allowance, capping      requested=131,363,552 cap=50,000,000
+INFO [11-21|13:11:40.482] Setting new local account                address=0xB47F08Cc7ddC9aA27b3bbd45e42EE8825Dc2EcF5
+INFO [11-21|13:11:40.483] Submitted transaction                    hash=0xe9d90eb6f3315008b494e029a2cffc53ea64731bab4009eb4c91e599ecda0eaf from=0xB47F08Cc7ddC9aA27b3bbd45e42EE8825Dc2EcF5 nonce=0 recipient=0xC1e1b83a482480E9E3cce55003caD6f4fAC7b7c4 value=5,000,000,000,000,000,000
